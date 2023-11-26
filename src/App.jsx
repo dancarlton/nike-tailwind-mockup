@@ -1,16 +1,20 @@
-import CustomerReviews from "./components/CustomerReviews"
-import Footer from "./components/Footer"
-import Hero from "./components/Hero"
-import PopularProducts from "./components/PopularProducts"
-import Services from "./components/Services"
-import SpecialOffer from "./components/SpecialOffer"
-import Subscribe from "./components/Subscribe"
-import SuperQuality from "./components/SuperQuality"
+import {
+  CustomerReviews,
+  Footer,
+  Hero,
+  Nav,
+  PopularProducts,
+  Services,
+  SpecialOffer,
+  Subscribe,
+  SuperQuality,
+} from './sections'
 
 const App = () => (
   <main className='relative'>
-    Nav
-    <section className='xl:padding-1 wide:padding-r padding-b'>
+    <Nav />
+    {/* check APP.JSX Hero Section wide:padding-r (-r removed) */}
+    <section className='xl:padding-l wide:padding padding-b'>
       <Hero />
     </section>
     <section className='padding'>
